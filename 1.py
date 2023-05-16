@@ -6,6 +6,10 @@ class Magaza:
         self.__satislar = {}
     def magaza_satis_tutar(self):
          return sum(self.__satislar.values())
+    def satis_ekle(self, satis_tutari):
+        if self.__satici_adi not in self.__satislar:
+            self.__satislar[self.__satici_adi] = 0
+        self.__satislar[self.__satici_adi] += satis_tutari
 
    
     
