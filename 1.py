@@ -12,6 +12,15 @@ class Magaza:
         self.__satislar[self.__satici_adi] += satis_tutari
     def get_magaza_adi(self):
         return self.__magaza_adi
+    def set_magaza_adi(self, magaza_adi):
+        self.__magaza_adi = magaza_adi
+    def set_satici_adi(self, satici_adi):
+        self.__satici_adi = satici_adi
+     def set_satici_cinsi(self, satici_cinsi):
+        self.__satici_cinsi = satici_cinsi
+    
+        
+
 
   
 
