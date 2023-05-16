@@ -4,6 +4,8 @@ class Magaza:
         self.__satici_adi = satici_adi
         self.__satici_cinsi = satici_cinsi
         self.__satislar = {}
+    def magaza_satis_tutar(self):
+         return sum(self.__satislar.values())
 
    
     
