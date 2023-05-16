@@ -10,6 +10,19 @@ class Magaza:
         if self.__satici_adi not in self.__satislar:
             self.__satislar[self.__satici_adi] = 0
         self.__satislar[self.__satici_adi] += satis_tutari
+    def get_magaza_adi(self):
+        return self.__magaza_adi
+
+  
+
+    def get_satici_adi(self):
+        return self.__satici_adi
+
+   
+
+    def get_satici_cinsi(self):
+        return self.__satici_cinsi
+        
 
    
     
